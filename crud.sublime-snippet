@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace App\Controllers;
+
+use CodeIgniter\Controller;
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends Controller {
+
+	public function __construct()
+	{
+		parent::__construct();
+		${0://Load Dependencies}
+
+	}
+
+	// List all your items
+	public function index( \$offset = 0 )
+	{
+
+	}
+
+	// Add a new item
+	public function add()
+	{
+
+	}
+
+	//Update one item
+	public function update( \$id = NULL )
+	{
+
+	}
+
+	//Delete one item
+	public function delete( \$id = NULL )
+	{
+
+	}
+}
+
+/* End of file ${TM_FILENAME:${1/(.+)/\l$1.php/}} */
+/* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/controllers/${1/(.+)/\l$1.php/}} */
+
+]]></content>
+	<!-- Opcional: Defina um tabTrigger para definir como acionar o snippet -->
+	<tabTrigger>ci4_crud</tabTrigger>
+	<!-- Opcional: defina um escopo para limitar onde o snippet será acionado -->
+	<scope>text.html</scope>
+	<description>CI4 - Controlador CRUD simples</description>
+</snippet>

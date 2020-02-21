@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<?php  namespace App\Models;
+
+use CodeIgniter\Model;
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:ModelName}} extends Model{
+	protected \$table = '';
+	protected \$primaryKey = 'id';
+
+	protected \$returnType = 'array';
+	protected \$useSoftDeletes = true;
+
+	protected \$allowedFields = [];
+
+	protected \$useTimestamps = true;
+	protected \$createdField  = 'created_at';
+	protected \$updatedField  = 'updated_at';
+	protected \$deletedField  = 'deleted_at';
+}
+
+/* End of file ${TM_FILENAME:${1/(.+)/\l$1.php/}} */
+/* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/models/${1/(.+)/\l$1.php/}} */
+]]></content>
+	<tabTrigger>ci4_model</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>CI - Model base</description>
+</snippet>

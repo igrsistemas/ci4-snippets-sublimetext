@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->request->isValidIP('${1:ip}')
+]]></content>
+	<tabTrigger>ci4_valid_ip</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI - Validar IP</description>
+</snippet>

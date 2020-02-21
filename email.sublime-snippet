@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+\$email = \Config\Services::email();
+
+\$email->setFrom('${1:email@email.com}', '${2:Name}');
+\$email->setTo('${3:someone@example.com}');
+\$email->setCC('${4:another@example.com}');
+\$email->setBCC('${5:and@another.com}');
+
+\$email->setSubject('${6:subject}');
+\$email->setMessage('${7:message}');
+
+\$email->send();
+
+echo \$email->print_debugger();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ci4_email</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Email Boilerplate</description>
+</snippet>

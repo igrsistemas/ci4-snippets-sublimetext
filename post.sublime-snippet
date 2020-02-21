@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->request->getPost('${1:name}')
+]]></content>
+	<tabTrigger>ci4_getPost</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI - $_GETPOST</description>
+</snippet>

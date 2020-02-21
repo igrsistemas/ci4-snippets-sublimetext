@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->request->getIPAddress();
+]]></content>
+	<tabTrigger>ci4_ip_address</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI4 - Obter endereço IP</description>
+</snippet>
