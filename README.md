@@ -4,4 +4,4 @@ Se você não tiver o Package Control instalado, precisará criar um clone deste
 
  > `git clone https://github.com/igrsistemas/ci4-snippets-sublimetext.git`
 
-Se você encontrar algum erro ou o que for, basta enviá-lo e me enviar uma solicitação de recebimento.
+Se você encontrar algum erro ou o que for, basta me enviar uma solicitação de correção.
